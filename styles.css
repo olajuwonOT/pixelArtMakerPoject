@@ -1,0 +1,77 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    color: skyblue; // change color
+     text-shadow: 2px 2px 4px #000000;
+  }
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+#colorPick{
+display: inline-flex;
+padding: 10px;
+}
+#colorBox{
+  padding: 10px 5px 5px 20px;
+}
+
+
+
+/* styling of the submit button*/
+#submitButton {
+  text-transform: uppercase;
+  background-color: cyan;
+  //added some styles to the text
+  font-family: sans-serif;
+  font-weight: bold;
+  color: rgb(128,50,128);
+}
+#submitButton:hover {
+  background-color: skyblue;
+  cursor: pointer;
+
+}
+/* styling the inputheight*/
+#inputHeight {
+border-color: cyan;
+border-width: thick;
+}
+/* styling the inputweight*/
+#inputWeight {
+border-color: cyan;
+border-width: thick;
+}
