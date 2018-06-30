@@ -1,4 +1,5 @@
 # Pixel Art Maker Project
+View live project [here](https://olajuwonot.github.io/pixelArtMakerPoject/)
 
 ## Table of Contents
 
